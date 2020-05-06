@@ -1,0 +1,26 @@
+This Guide will show how to install Anaconda on Linux
+
+Step 1. Download Anaconda
+From Download page, copy the link to the right version 
+create a tmp dirctory to use for download the file 
+$ mkdir tmp
+$ cd tmp
+$ wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
+
+Step 2. use bash file to install
+
+The bash file downloaded is an installer,
+start the installer by typing
+$ bash Anaconda3-2020.02-Linux-x86_64.sh
+
+Then the intaller will start installing after you read through and agree the license agreement.
+It will also ask you if you want to have the anaconda added to the path. If so you can start Anaconda python 
+with typing python 
+
+Step 3. Activate the change and start python shell
+
+To activate the changes, type
+$ source ~/.bashrc
+
+Then python can be started by 
+$ python 
